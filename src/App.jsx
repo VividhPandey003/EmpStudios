@@ -3,6 +3,9 @@ import Hero from './components/Hero.jsx'
 import Feature from './components/Feature.jsx'
 import './index.css'
 import Workflow from './components/Workflow.jsx'
+import Pricing from './components/Pricing.jsx'
+import Testimonials from './components/Testimonials.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -13,6 +16,9 @@ function App() {
         <Hero />
         <Feature />
         <Workflow />
+        <Pricing />
+        <Testimonials />
+        <Footer />
       </div>
     </>
   )
